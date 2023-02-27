@@ -2,8 +2,9 @@ div {
   background-color: cornflowerblue;
   width: 100px;
   height: 75px;
-  padding: 20px;
+  padding: 35px;
   text-align: center;
+  border-radius: 30%;
 }
 
 section {
@@ -11,18 +12,36 @@ section {
 display: flex;
 flex-direction: row;
 justify-content: space-around;
-height: 50vh;
+height: 40vh;
 align-items: center;
 flex-wrap: wrap;
 border-radius: 10px;
+margin-top: 20px;
+margin-bottom: 20px;
 }
 
 body {
-  background-color: lightgray;
+  background: linear-gradient(navy, lightgray, navy)
 }
 
 a {
   color: navy;
   text-decoration: none;
   border-radius: 8px;
+  font-family: cursive;
+}
+
+h1 {
+  background-color: navy;
+  border-radius: 10px;
+  margin-top: 20px;
+  margin-bottom: 20px;
+  color: cornflowerblue;  
+  font-family: cursive;
+}
+
+p {
+  color: cornflowerblue;
+  font-family: cursive;
+  font-size: 20px;
 }
