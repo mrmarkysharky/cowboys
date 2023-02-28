@@ -1,0 +1,40 @@
+a {
+  color: navy;
+  text-decoration: none;
+  border-radius: 8px;
+  font-family: cursive;
+  background-color: cornflowerblue;
+  padding: 30px;
+}
+
+section {
+  background-color: navy;
+display: flex;
+flex-direction: row;
+justify-content: space-around;
+height: 40vh;
+align-items: center;
+flex-wrap: wrap;
+border-radius: 10px;
+margin-top: 20px;
+margin-bottom: 20px;
+}
+
+body {
+  background: linear-gradient(navy, lightgray, navy)
+}
+
+h1 {
+  background-color: navy;
+  border-radius: 10px;
+  margin-top: 20px;
+  margin-bottom: 20px;
+  color: cornflowerblue;  
+  font-family: cursive;
+}
+
+p {
+  color: cornflowerblue;
+  font-family: cursive;
+  font-size: 20px;
+}
